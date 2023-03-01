@@ -14,3 +14,7 @@ spring:
             idle-timeout: 10000000
             max-lifetime: 100
             minimum-idle: 100
+
+    profiles:
+        #        active: dev
+        default: default
