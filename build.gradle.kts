@@ -14,6 +14,19 @@ configurations {
     }
 }
 
+javaToolchains {
+    sourceSets {
+        main {
+            java { setSrcDirs(listOf("java")) }
+            resources { setSrcDirs(listOf("resources")) }
+        }
+        test {
+            java { setSrcDirs(listOf("test")) }
+            resources { setSrcDirs(listOf("testResources")) }
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
