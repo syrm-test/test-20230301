@@ -7,10 +7,10 @@ server:
             encoding: UTF-8
 spring:
     datasource:
-        name: 'root'
-        password: '111111'
-        url: '...'
+        name: 'root1'
+        password: '22222'
+        url: '......'
         hikari:
-            idle-timeout: 10000
+            idle-timeout: 100000
             max-lifetime: 10
             minimum-idle: 10
