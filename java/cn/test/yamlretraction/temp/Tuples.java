@@ -13,4 +13,8 @@ public record Tuples<A, B>(A a, B b) {
         System.out.println("m");
     }
 
+    public static void m2() {
+        System.out.println("m");
+    }
+
 }
