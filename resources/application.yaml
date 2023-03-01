@@ -9,10 +9,10 @@ spring:
     datasource:
         name: 'root1'
         password: '4444'
-        url: '.........'
+        url: '..............'
         hikari:
             idle-timeout: 10000000
-            max-lifetime: 100
+            max-lifetime: 1000
             minimum-idle: 100
 
     profiles:
