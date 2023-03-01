@@ -1,0 +1,7 @@
+server:
+    port: 80
+    servlet:
+        context-path: '/test'
+    tomcat:
+        accesslog:
+            encoding: UTF-8
