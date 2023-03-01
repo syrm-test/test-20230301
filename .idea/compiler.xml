@@ -9,7 +9,7 @@
           <entry name="$PROJECT_DIR$/../../../env/data/gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.0.3/fadcb8f1558db61596dec6e523d66305410dbcdc/spring-boot-configuration-processor-3.0.3.jar" />
           <entry name="$PROJECT_DIR$/../../../env/data/gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
         </processorPath>
-        <module name="yaml-retraction.main" />
+        <module name="yaml-retraction.submodules.app-web.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
